@@ -1,0 +1,16 @@
+{
+  "name": [
+    "Iód",
+    "Remoliv",
+    "Onuanerth",
+    "Ugichi",
+    "Renus",
+    "Baurilia",
+    "Mogunus",
+    "Chobiter",
+    "Mao 1UOT",
+    "Cillon 9A46"
+  ],
+  "terrain": ["Mountainous", "Gaia", "Tundra", "Arid", "Desert", "Ocean"],
+  "size": ["small", "large", "medium", "very large"]
+}

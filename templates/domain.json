@@ -1,0 +1,65 @@
+[
+  {
+    "domainName": "Artistic",
+    "areaOfExpertise": [
+      {
+        "expertiseName": "Machinery",
+        "specialisation": [
+          "stage effects",
+          "scenery pieces",
+          "scenic art",
+          "lighting and sound systems"
+        ]
+      },
+      {
+        "expertiseName": "Produce",
+        "specialisation": ["plays", "poems", "novels", "comedy sketches"]
+      },
+      {
+        "expertiseName": "Expertise",
+        "specialisation": ["playwrights", "poets", "composers", "directors"]
+      },
+      {
+        "expertiseName": "Workers",
+        "specialisation": ["actors", "stage crew", "musicians", "speakers"]
+      },
+      {
+        "expertiseName": "Understanding",
+        "specialisation": [
+          "philosophy",
+          "literary criticism",
+          "theatrical performing styles"
+        ]
+      }
+    ]
+  },
+  {
+    "domainName": "Espionage",
+    "areaOfExpertise": [
+      {
+        "expertiseName": "Machinery",
+        "specialisation": [
+          "surveillance devices",
+          "sensors",
+          "jamming technology"
+        ]
+      },
+      {
+        "expertiseName": "Produce",
+        "specialisation": ["Information and secrets from other houses, probably by a particular specialty (such as military secrets or blackmail information)"]
+      },
+      {
+        "expertiseName": "Expertise",
+        "specialisation": ["spymasters and agent handlers"]
+      },
+      {
+        "expertiseName": "Workers",
+        "specialisation": ["agents", "spies", "infiltrators"]
+      },
+      {
+        "expertiseName": "Understanding",
+        "specialisation": ["particular forms of espionage and counterintelligence techniques"]
+      }
+    ]
+  }
+]
