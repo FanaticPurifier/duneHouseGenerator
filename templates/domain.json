@@ -1,6 +1,6 @@
 [
   {
-    "domainName": "Artistic",
+    "domainName": "Artistry",
     "areaOfExpertise": [
       {
         "expertiseName": "Machinery",
@@ -92,7 +92,7 @@
     ]
   },
   {
-    "domainName": "Industrial",
+    "domainName": "Industry",
     "areaOfExpertise": [
       {
         "expertiseName": "Machinery",
@@ -178,7 +178,7 @@
     ]
   },
   {
-    "domainName": "Political",
+    "domainName": "Politics",
     "areaOfExpertise": [
       {
         "expertiseName": "Machinery",

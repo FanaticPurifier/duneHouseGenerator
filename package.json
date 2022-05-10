@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/FanaticPurifier/duneHouseGenerator#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "indefinite": "^2.4.1"
   },
-  "devDependencies": {},
   "keywords": []
 }
