@@ -61,5 +61,149 @@
         "specialisation": ["particular forms of espionage and counterintelligence techniques"]
       }
     ]
+  },
+  {
+    "domainName": "Farming",
+    "areaOfExpertise": [
+      {
+        "expertiseName": "Machinery",
+        "specialisation": [
+          "tractors",
+          "harvesters",
+          "large-scale farming equipment"
+        ]
+      },
+      {
+        "expertiseName": "Produce",
+        "specialisation": ["crops and animal products (from special wheat to sheep and cheese)"]
+      },
+      {
+        "expertiseName": "Expertise",
+        "specialisation": ["Stewards and land managers"]
+      },
+      {
+        "expertiseName": "Workers",
+        "specialisation": ["farm labourers", "shepherds", "herders"]
+      },
+      {
+        "expertiseName": "Understanding",
+        "specialisation": ["new farming techniques, such as rotation, that increase productivity"]
+      }
+    ]
+  },
+  {
+    "domainName": "Industrial",
+    "areaOfExpertise": [
+      {
+        "expertiseName": "Machinery",
+        "specialisation": [
+          "factory machinery",
+          "spacecraft",
+          "large vehicles"
+        ]
+      },
+      {
+        "expertiseName": "Produce",
+        "specialisation": ["mass-produced goods", "refined alloys", "toys"]
+      },
+      {
+        "expertiseName": "Expertise",
+        "specialisation": ["supervisors and business managers"]
+      },
+      {
+        "expertiseName": "Workers",
+        "specialisation": ["factory workers", "craftsmen", "mechanics"]
+      },
+      {
+        "expertiseName": "Understanding",
+        "specialisation": ["new techniques for business management and factory operation"]
+      }
+    ]
+  },
+  {
+    "domainName": "Kanly",
+    "areaOfExpertise": [
+      {
+        "expertiseName": "Machinery",
+        "specialisation": [
+          "assasination weapons and traps (hunter-seekers, mines, bombs, etc.)"
+        ]
+      },
+      {
+        "expertiseName": "Produce",
+        "specialisation": ["poisons (not just to kill but to stun or weaken and to be near undetectable)"]
+      },
+      {
+        "expertiseName": "Expertise",
+        "specialisation": ["assasin masters", "operation planners", "trainers"]
+      },
+      {
+        "expertiseName": "Workers",
+        "specialisation": ["assasins", "thugs", "infiltration specialists"]
+      },
+      {
+        "expertiseName": "Understanding",
+        "specialisation": ["means of assasination","infiltration techniques", "deadly combat strikes"]
+      }
+    ]
+  },
+  {
+    "domainName": "Military",
+    "areaOfExpertise": [
+      {
+        "expertiseName": "Machinery",
+        "specialisation": [
+          "battlefield weapons",
+          "artillery",
+          "large-scale shields",
+          "tanks"
+        ]
+      },
+      {
+        "expertiseName": "Produce",
+        "specialisation": ["ammunition", "personal weapons", "small arms (rifles, pistols, etc.)"]
+      },
+      {
+        "expertiseName": "Expertise",
+        "specialisation": ["tacticians", "officers", "strategists"]
+      },
+      {
+        "expertiseName": "Workers",
+        "specialisation": ["soldiers", "engineers", "pilots", "logistics personnel"]
+      },
+      {
+        "expertiseName": "Understanding",
+        "specialisation": ["military strategies and new tactics"]
+      }
+    ]
+  },
+  {
+    "domainName": "Political",
+    "areaOfExpertise": [
+      {
+        "expertiseName": "Machinery",
+        "specialisation": [
+          "couture fashion",
+          "expensive trinkets",
+          "message services"
+        ]
+      },
+      {
+        "expertiseName": "Produce",
+        "specialisation": ["information, secrets and favors, possibly even from the imperial house"]
+      },
+      {
+        "expertiseName": "Expertise",
+        "specialisation": ["political analysts", "mediators", "diplomats", "fashionistas", "social planners"]
+      },
+      {
+        "expertiseName": "Workers",
+        "specialisation": ["courtiers", "spies", "administrators", "servants", "entourage"]
+      },
+      {
+        "expertiseName": "Understanding",
+        "specialisation": ["diplomacy techniques and forms of etiquette"]
+      }
+    ]
   }
 ]

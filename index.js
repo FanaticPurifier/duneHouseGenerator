@@ -8,22 +8,25 @@ const buildHouse = (names, domain, homeworld) => {
         "homeworldName": homeworld.planetName[Math.floor(Math.random() * homeworld.planetName.length)],
         "homeworldType": homeworld.terrain[Math.floor(Math.random() * homeworld.terrain.length)],
         "primaryDomain": domain[Math.floor(Math.random() * domain.length)],
+        // The following setters reduce the primaryDomain object down to single randomly chosen Areas of Expertise and Specialisation
         setAreaOfExpertise(){
             house.primaryDomain.areaOfExpertise = house.primaryDomain.areaOfExpertise[Math.floor(Math.random() * house.primaryDomain.areaOfExpertise.length)]
         },
         setSpecialisation(){
             house.primaryDomain.areaOfExpertise.specialisation = house.primaryDomain.areaOfExpertise.specialisation[Math.floor(Math.random() * house.primaryDomain.areaOfExpertise.specialisation.length)]
         }
-        //"areaOfExpertise": domain.findIndex((current) => current.domainName == this.primaryDomain)
     }
-    // house.homeworld.planetName = homeworld.planetName[Math.floor(Math.random() * homeworld.planetName.length)]
     
-    house.setAreaOfExpertise(house)
-    house.setSpecialisation(house)
-    console.log(`${house.name} from the planet ${house.homeworldName}`)
-    console.log(`${house.homeworldName} is a ${house.homeworldType} planet`)
-    console.log(`${house.name} is known across the galaxy for it's ${house.primaryDomain.domainName}. They are experts in ${house.primaryDomain.domainName} ${house.primaryDomain.areaOfExpertise.expertiseName}.`)
-    console.log(`For example, ${house.primaryDomain.areaOfExpertise.specialisation}`)
+    house.setAreaOfExpertise(house);
+    house.setSpecialisation(house);
+    const writeDescription = (house) => {
+      console.log(`${house.name} from the planet ${house.homeworldName}`);
+      console.log(`${house.homeworldName} is a ${house.homeworldType} planet`);
+      console.log(`${house.name} is known across the galaxy for it's ${house.primaryDomain.domainName}. They are experts in ${house.primaryDomain.domainName} ${house.primaryDomain.areaOfExpertise.expertiseName}.`);
+      console.log(`For example, ${house.primaryDomain.areaOfExpertise.specialisation}.`);
+    };
+    
+    writeDescription(house)
 };
 
 buildHouse(names, domain, homeworld);
